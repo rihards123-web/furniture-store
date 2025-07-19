@@ -37,6 +37,20 @@
             <h2>Browse The Range</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
+        <div class="browse-range-img-container">
+            <div class="img-container1">
+                <img src="{{asset ('images/dining-img.svg')}}" alt="">
+                <p>Dining</p>
+            </div>
+            <div class="img-container2">
+                <img src="{{asset ('images/living-room-img.svg')}}" alt="">
+                <p>Living</p>
+            </div>
+            <div class="img-container3">
+                <img src="{{asset ('images/bedroom-img.svg')}}" alt="">
+                <p>Bedroom</p>
+            </div>
+        </div>
     </section>
 </body>
 </html>
