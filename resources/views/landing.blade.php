@@ -12,7 +12,9 @@
 </head>
 <body>
     <section class="landing">
+    @include('partials.nav-bar')
         <div class="landing-container">
+            
             <div class="landing-banner">
                 <div class="landing-banner-intro">
                     <p>New Arrival</p>
@@ -31,7 +33,10 @@
         </div>
     </section>
     <section class="browse-range">
-    {{-- stuff --}}
+        <div class="browse-range-heading">
+            <h2>Browse The Range</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
     </section>
 </body>
 </html>

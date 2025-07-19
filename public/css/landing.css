@@ -6,17 +6,21 @@
     font-style: normal;
 }
 
-
+.landing {
+  background-image: url('/images/landing-background-1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;         
+  display: flex;
+  flex-direction: column;
+}
 
 .landing-container {
-    background-image: url('/images/landing-background-1.svg');
-    max-width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  flex: 1;               
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .landing-banner {
