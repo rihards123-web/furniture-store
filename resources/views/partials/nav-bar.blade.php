@@ -8,8 +8,8 @@
     </div>
     <div class="nav-bar-navigation">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/products">Shop</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
