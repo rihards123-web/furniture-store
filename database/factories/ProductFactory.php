@@ -27,9 +27,15 @@ class ProductFactory extends Factory
             'Pingky'
         ]; 
 
+        $description = [
+            'Stylish cafe chair',
+            'Luxury big sofa',
+            'Outdoor bar table and stool',
+        ];
+
         return [
             'title' => $this->faker->randomElement($titles), // gets random name from my array
-            'description' => $this->faker->sentence(),
+            'description' => $this->faker->randomElement( $description), // gets random discription
             'price' => $this->faker->randomFloat(2, 5, 5000), 
             'image' => 'product' . $this->faker->numberBetween(1, 8) . '.svg'
         ];
